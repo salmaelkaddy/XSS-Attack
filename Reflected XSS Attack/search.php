@@ -10,7 +10,7 @@
     <h1 align="center">Try My Search Bar</h1>
     <table align="center">
         <tr><td>
-            <form action="includes/search.php" method="get">
+            <form action="mitigation.php" method="get">
                 <input type="text" name="search" placeholder="Search Here"/>
                 <input type="submit" value="search" name="Search"/>
 
