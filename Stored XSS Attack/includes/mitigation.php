@@ -15,8 +15,12 @@ if(isset($_POST['clear'])){
 
 //Insertion
 
-if(isset($_POST['Comment'])){
-    $comm = $_POST['comment'];
+if(isset($_POST['Comment'])){    $comm = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
+    if(strpos($comm, "https://")){
+        exit();
+    }else{
+        
+    }
     $sql = "INSERT INTO `comment`(`comment`) VALUES ('$comm')";
     if(mysqli_query($connection, $sql) == TRUE){
         echo "Inserted";
