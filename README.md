@@ -12,6 +12,8 @@ Cross-site scripting (XSS) is an exploit where the attacker attaches code onto a
  
 ***Scenario for the attack:*** When the victim loads this link in their web browser, the browser will execute the code injected into the URL. The attacker usually uses some form of social engineering to trick the victim into clicking on the link.
 
+
+
 ***Stored XSS Attack***
 
 ***Uniqueness:*** Most damaging attack in XSS.
