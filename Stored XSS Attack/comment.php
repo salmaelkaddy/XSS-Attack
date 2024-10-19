@@ -7,10 +7,10 @@
     <title>Presistant XSS Attack</title>
 </head>
 <body>
-    <h1 align="center"> Presistant XSS Attach</h1>
+    <h1 align="center"> Presistant XSS Attack</h1>
     <table align="center">
         <tr><td>
-            <form action="includes/comment.php" method="post">
+            <form action="includes/mitigation.php" method="post">
                 <textarea row="6" cols="55" name ="comment" placeholder="Leave your comment" maxlength="400"></textarea>
                 <table align="center">
                     <tr><td>
