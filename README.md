@@ -3,6 +3,7 @@ Cross-site scripting (XSS) is an exploit where the attacker attaches code onto a
 2. Stored XSS Attack.
 3. DOM-Based XSS Attack.
 
+
 1. Reflected XSS Attack
 Additive Advantage: Most seen attack in XSS.
 
