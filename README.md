@@ -14,6 +14,7 @@ Cross-site scripting (XSS) is an exploit where the attacker attaches code onto a
 
 
 
+
 ***Stored XSS Attack***
 
 ***Uniqueness:*** Most damaging attack in XSS.
